@@ -21,6 +21,7 @@ movie_recommendation/
 
 - **data**: Contains the movie dataset
 
+
 ## Getting Started
 
 1. **Install Dependencies**:
