@@ -21,6 +21,7 @@ movie_recommendation/
 
 - **data**: Contains the movie dataset
 
+- **screenshots**
 ![alt text](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/screenshots/screen.png)
 
 ## Getting Started
