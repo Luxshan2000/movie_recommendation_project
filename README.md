@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is project for learning H2O Wave. Here user can search movies name and get released year, rating and actor name. 
+This is a project for learning H2O Wave. Users can search movie names and get released year, rating, and actor names. 
 
 ## Folder Structure
 
@@ -13,8 +13,11 @@ movie_recommendation/
 │
 ├── data/
 │   ├── movies.csv
+├── screenshots/
+│   ├── screen.png
 │
 ├── app.py
+├── test.py
 │
 ├── README.md
 ```
