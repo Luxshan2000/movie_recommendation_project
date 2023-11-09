@@ -1,4 +1,4 @@
-from h2o_wave import ui, app, main
+from h2o_wave import ui, app, main, data
 import pandas as pd
 import sys
 
@@ -43,6 +43,7 @@ async def controller(q):
     if not q.client.initialized:
         main_app(q)
         table_view(q)
+        actor_view(q)
     
     # Finally, save the page.
     await q.page.save()
@@ -111,4 +112,25 @@ def table_view(q):
                 resettable=True,
             ),
         ],
+    )
+
+
+
+
+
+# Actor view setup
+def actor_view(q):
+    string_data_set = stringify_content(data_set)
+    
+
+    q.page['analysis'] = ui.plot_card(
+        box='content',
+        title='Actor and Rating for their movies',
+        data=data('actor rating', 5, rows=[
+            ('vijay', 10),
+            ('ajith', 18),
+            ('rajini', 24),
+            ('kamal', 22)
+        ]),
+        plot=ui.plot([ui.mark(type='interval', x='=actor', y='=rating', y_min=0)])
     )
