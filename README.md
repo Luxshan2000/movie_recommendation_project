@@ -52,8 +52,8 @@ movie_recommendation/
 
 ## Usage
 
-1. Open the web app and enter your movie preferences.
-2. Use the Search bar to find ur Tamil movies
+1. Open the web app
+2. Use the Search bar to find Tamil movies
 3. Scroll down and see the predicted rating of actors
 
 ## Acknowledgments
