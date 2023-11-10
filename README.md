@@ -33,13 +33,11 @@ movie_recommendation/
 ├── README.md
 ```
 
-- **data**: Contains the movie dataset
-
 - **screenshots**
   - Screenshot 1
 ![alt text](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/screenshots/screen.png)
   - Screenshot 2
-![alt text](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/screenshots/screen1.png)
+![alt text](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/screenshots/screen2.png)
 
 ## Getting Started
 
