@@ -129,7 +129,7 @@ def actor_view(q):
     # Convert the DataFrame to a list of tuples
     data_set = [(row['Name'], row['Rating']) for index, row in result_df.iterrows()]
 
-    string_data_set = stringify_content(data_set)
+    # string_data_set = stringify_content(data_set)
 
     q.page['analysis'] = ui.plot_card(
         box='content',

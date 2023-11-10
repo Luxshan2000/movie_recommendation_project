@@ -33,11 +33,14 @@ movie_recommendation/
 ├── README.md
 ```
 
-- **screenshots**
+- **Screenshots**
   - Screenshot 1
-![alt text](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/screenshots/screen.png)
+![Sceenshot](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/screen.png)
   - Screenshot 2
-![alt text](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/screenshots/screen2.png)
+![Sceenshot](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/screen2.png)
+
+- **Demo**
+![Screen recording](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/recording.mp4)
 
 ## Getting Started
 

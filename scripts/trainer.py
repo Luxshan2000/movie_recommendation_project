@@ -28,7 +28,7 @@ aml = H2OAutoML(max_runtime_secs=600)  # Set the maximum runtime in seconds
 aml.train(x=x, y=y, training_frame=train)
 
 # Save the AutoML model
-model_path = h2o.save_model(aml.leader, path="../model/model.file", force=True)
+model_path = h2o.save_model(aml.leader, path="../model", force=True)
 
 
 # Shutdown H2O cluster
