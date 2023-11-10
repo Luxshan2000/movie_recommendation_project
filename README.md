@@ -40,8 +40,7 @@ movie_recommendation/
   - Screenshot 2
 ![Sceenshot](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/screen2.png)
 
-- **Demo**
-[See demo Video](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/recording.mp4)
+- **[See demo Video](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/recording.mp4)**
 
 
 ## Getting Started
