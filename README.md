@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a project for learning H2O Wave. Users can search movie names and get released year, rating, and actor names. 
+This is a project for learning H2O Wave. Users can search movie names and get released year, rating, and actor names and can see a predicted rating of actors for next year by using a trained model with H2O AutoML. 
 
 ## Folder Structure
 
@@ -13,8 +13,19 @@ movie_recommendation/
 │
 ├── data/
 │   ├── movies.csv
+│   ├── rating.csv
+│   ├── result.csv
+|
+├── model/
+│   ├── model
+|
 ├── screenshots/
 │   ├── screen.png
+│   ├── screen1.png
+│
+├── scripts/
+│   ├── rating_predictor.py
+│   ├── trainer.py
 │
 ├── app.py
 ├── test.py
@@ -22,10 +33,11 @@ movie_recommendation/
 ├── README.md
 ```
 
-- **data**: Contains the movie dataset
-
 - **screenshots**
+  - Screenshot 1
 ![alt text](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/screenshots/screen.png)
+  - Screenshot 2
+![alt text](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/screenshots/screen2.png)
 
 ## Getting Started
 
@@ -41,7 +53,8 @@ movie_recommendation/
 ## Usage
 
 1. Open the web app and enter your movie preferences.
-2. Use Search bar for find ur tamil movies
+2. Use the Search bar to find ur Tamil movies
+3. Scroll down and see the predicted rating of actors
 
 ## Acknowledgments
 
