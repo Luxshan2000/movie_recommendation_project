@@ -19,9 +19,10 @@ movie_recommendation/
 ├── model/
 │   ├── model
 |
-├── screenshots/
+├── assets/
 │   ├── screen.png
 │   ├── screen1.png
+│   ├── recording.mp4
 │
 ├── scripts/
 │   ├── rating_predictor.py
@@ -40,7 +41,7 @@ movie_recommendation/
 ![Sceenshot](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/screen2.png)
 
 - **Demo**
-![Download Video](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/recording.mp4)
+[See demo Video](https://raw.githubusercontent.com/Luxshan2000/movie_recommendation_project/main/assets/recording.mp4)
 
 
 ## Getting Started
