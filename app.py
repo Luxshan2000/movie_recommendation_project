@@ -18,6 +18,8 @@ def read_csv_file():
         print(f"Unexpected error opening {file_name}: {repr(err)}")
         sys.exit(1)
 
+
+
 # Function to process and prepare the data for display
 def prepare_data():
     data_frame = read_csv_file()
@@ -118,19 +120,21 @@ def table_view(q):
 
 
 
+
 # Actor view setup
 def actor_view(q):
+    # Read the result from the CSV file
+    result_df = pd.read_csv('./data/result.csv')
+
+    # Convert the DataFrame to a list of tuples
+    data_set = [(row['Name'], row['Rating']) for index, row in result_df.iterrows()]
+
     string_data_set = stringify_content(data_set)
-    
 
     q.page['analysis'] = ui.plot_card(
         box='content',
-        title='Actor and Rating for their movies',
-        data=data('actor rating', 5, rows=[
-            ('vijay', 10),
-            ('ajith', 18),
-            ('rajini', 24),
-            ('kamal', 22)
-        ]),
+        title='Predicted rating for 2024',
+        data=data('actor rating', 5, rows=data_set),
         plot=ui.plot([ui.mark(type='interval', x='=actor', y='=rating', y_min=0)])
     )
+
