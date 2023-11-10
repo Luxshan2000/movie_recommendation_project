@@ -47,7 +47,7 @@ movie_recommendation/
 
 
 3. **Running the Web App**:
-   - Start the web app by running `app.py` 
+   - Start the web app by running `wave run app` 
    - Access the web app in your browser at `http://localhost:10101`.
 
 ## Usage
